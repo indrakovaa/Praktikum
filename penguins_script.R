@@ -49,3 +49,12 @@ train_labels = train_data[label_col]
 test_labels = test_data[label_col]
 
 # Species prediction
+
+## TODO
+# build model
+penguin_model =
+summary(penguin_model)
+# compile model
+# history
+# plot predictions on the train set
+# evaluation on the test set
