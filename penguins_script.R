@@ -1,3 +1,4 @@
+## Import library and data
 library(tidyverse)
 library(keras)
 library(readr)
@@ -24,3 +25,7 @@ train_ind <- sample(seq_len(nrow(data)), size = sample)
 train_data = data[train_ind, ]
 test_data = data[-train_ind, ]
 
+# normalization
+
+
+# Species prediction
