@@ -33,7 +33,7 @@ test_data = data[-train_ind, ]
 
 # normalization
 label_col = "species"  
-feature_cols = c("island", "culmen_length_mm", "culmen_depth_mm", "flipper_length_mm", "body_mass_g" ) 
+feature_cols = c("island", "culmen_length_mm", "culmen_depth_mm", "flipper_length_mm", "body_mass_g", "sex" ) 
 ## should we include sex in the species prediction??
 
 train_means = apply(train_data[feature_cols], 2, mean)
